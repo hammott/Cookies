@@ -1,4 +1,4 @@
-
+// Hamid Mottaghian
 document.querySelector('form').addEventListener('submit', (e) => {
     let checkBox = document.getElementById('checkBox');
     if (checkBox.checked == true){
