@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row py-5 justify-content-center">
+            <div class="col-5 bg-info p-5" style="border-radius: 25px;">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="text" class="form-control" id="age" placeholder="Enter Your age">
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="checkBox">
+                        <label class="form-check-label" for="checkBox">Save to Cookie</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="row py-1 justify-content-center">
+            <div class="col-lg-5 bg-danger p-5" style="border-radius:15px;">
+                <div class="result" style="text-align: center; color: #fff; " >
+                    <p id="result">result</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="cookies.js"></script>
+</body>
+</html>
