@@ -31,4 +31,4 @@ let storeAge = cookies.age;
 console.log (storeName)
 console.log (storeAge)
 
-document.getElementById('result').innerHTML = `name : ${storeName} <br> age : ${storeAge}`;
+document.getElementById('result').innerHTML = `NAME : ${storeName} <br> AGE : ${storeAge}`;
